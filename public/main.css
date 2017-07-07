@@ -1,0 +1,37 @@
+.all_users{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.users{
+  border: 1px solid black;
+  flex-basis: 18%;
+  margin: 5px;
+
+}
+.full_data{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+.avi{
+  flex: 0 1 20%;
+  margin: 5px;
+}
+.info{
+  flex: 1 0 60%;
+  margin: 20px;
+}
+.table{
+  margin-left: 50px;
+  margin-bottom: 70px;
+}
+.avi img{
+  border: 1px solid black;
+  border-radius: 100%;
+}
+#red{
+  color: red;
+}
